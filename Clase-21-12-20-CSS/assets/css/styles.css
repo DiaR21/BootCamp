@@ -1,0 +1,33 @@
+
+        .Encabezado { /*h1 es el elemento a aplicar*/
+            font-size: 72px; /*Tamaño en pixeles px, %, em, rem */
+            color: deeppink;
+            background-color: #ff0; /* hexagencimal  #poner_numeros*/
+            text-align: center; /*centar texto*/
+            text-transform: uppercase;
+
+        }
+        body{
+            background-color: #e1e1e1;
+        }
+        #Texto{
+            color: blue;
+            background-color: palevioletred;
+        }
+
+
+        .Texto{
+            color: white;
+            background-color: black;
+        }
+
+        p{
+            color:antiquewhite;
+            background-color: dimgray;
+        }
+        
+        p{
+            color: yellow;
+            background-color: teal;
+        }
+

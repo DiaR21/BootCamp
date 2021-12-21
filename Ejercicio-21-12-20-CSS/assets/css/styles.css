@@ -1,0 +1,35 @@
+
+        .Encabezado { /*h1 es el elemento a aplicar*/
+            font-size: 30px; /*Tamaño en pixeles px, %, em, rem */
+            color: black;
+            font-family: Arial;
+            text-transform: capitalize;
+
+        }
+        body{
+            background-color: green;
+        }
+
+        .Texto1{
+            font-size: 20px; 
+            color: white;
+            font-style: oblique;
+        }
+
+        .Texto2{
+            font-size: 20px; 
+            color: bisque;
+            font-family: Arial;
+        }
+        
+        .Texto3{
+            font-size: 20px; 
+            color: orange;
+            font-family: "Homer Simpson UI";
+        }
+
+        .Texto4{
+            font-size: 20px; 
+            color: red;
+            font-family: cursive;
+        }
