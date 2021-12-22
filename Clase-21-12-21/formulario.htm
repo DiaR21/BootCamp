@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <input type="text" />
+        <input type="date" />
+        <input type="color" />
+        <input type="password"/>
+        <input type="file"/>
+        <input type="checkbox"/>
+        <input type="radio"/>
+        <input type="button" value="Enviar"/> 
+    </form>
+    <button>Hola</button>
+    <h1>Formulario</h1>
+    <form class="Formulario">
+     <!--   <fieldset>
+            Da un marco
+        </fieldset> -->
+        <br>
+    <div class="Nombre">
+            <label  for="Nombre">Nombre</label>
+            <input class="Caja_Nom" id="Nombre" type="text" name="Nombre" placeholder="Escribe tu nombre ..." required >
+    </div>
+    <br>
+    <div class="Apellido">
+        <label for="Apellido">Apellido</label>
+        <input id="Apellido" type="text" name="Apellido" placeholder="Escribe tu apellido ..." required >
+    </div>
+    <br>
+    <div class="password">
+        <label for="Password">Password</label>
+        <input id="Password" type="password" name="Password" placeholder="Escribe tu password ...">
+    </div>
+    <br>
+    <div class="correo">
+        <label for="correo">Correo</label>
+        <input id="correo" type="email" name="correo" placeholder="Escribe tu correo">
+ 
+    </div>
+       <br>
+    <div class="Enviar">
+        <input type="submit" value="Enviar">
+    </div>
+    </form>
+    <br/>
+    <br/>
+    <form >
+        <fieldset>
+            <legend>Ingrese el número</legend>
+            <label for="numero">Número</label>
+            <input id="numero" type="number" name="numero" min="40" max="50">
+            <label for="rango">Rango</label>
+            <input type="range" name="rango" id="rango" min="50">
+            <!-- Barra movil, min opcional-->
+        </fieldset>
+    </form>
+</body>
+</html>

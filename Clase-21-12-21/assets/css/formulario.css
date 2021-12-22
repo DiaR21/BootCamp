@@ -1,0 +1,10 @@
+.Formulario{
+    border: 1px solid purple;
+}
+.Caja_Nom{
+    border: 5px double rgb(223, 143, 223);
+}
+
+#Password{
+    border: 2px dashed blueviolet;
+}

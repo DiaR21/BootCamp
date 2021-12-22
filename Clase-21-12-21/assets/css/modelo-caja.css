@@ -1,0 +1,39 @@
+body{
+/*  background-image: url(https://media.istockphoto.com/illustrations/abstract-pastel-fairy-background-with-rainbow-mesh-kawaii-universe-illustration-id1097648554?k=20&m=1097648554&s=170667a&w=0&h=HVsvytPvSoxzNPNYCi3JogvztEHbecY1FzDFJ-51KOQ=);
+   background-repeat:no-repeat ;
+    background-size: cover;*/
+    background-color: aliceblue;
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.subtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Caja{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 30%; /*Borde REDONDO*/
+}
+.Rojo{
+    /*background-color: rgb(247, 9, 9);*/
+    border: 5px solid red; /*solid para lineas*/
+}
+.Verde{
+    /*background-color: green;*/
+    border: 10px dashed  green;
+
+}
+.Azul{
+    /*background-color: blue;*/
+    border-left: 15px double blue;
+}
+.Negra{
+    /*background-color: blue;*/
+    border: 30px double black;
+}
