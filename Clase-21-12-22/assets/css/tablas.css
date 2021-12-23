@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana;       
+    padding: 5%;     
+}
+
+table, tr, th, td {
+    border :3px solid #65ffff;
+}
+h1 {
+    color: #000;
+    text-shadow: #555 2px 2px 3px;
+  }
+
+table{
+    background-color: white;
+}
+th{
+    background-color:white;
+} 

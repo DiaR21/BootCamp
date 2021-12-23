@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/tablas.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tabla</h1>
+    <table>
+        <thead>
+            <tr> <!--fila de tabla--> <!--Solo ocupan sus espacios de cabeza,cuerpo y pie-->
+                <th colspan="2">Cabecera</th> <!--Columna-->
+                <th colspan="2">Cabecera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Hola</td> <!--Celdas-->
+                <td>Adios</td>
+                <td>Adios*</td>
+            </tr>
+            <tr>
+                <td >Hola1</td> <!--Celdas-->
+                <td>Adios2</td>
+                <td>Adios3*</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Hola Pie</td> <!--Celdas-->
+                <td>Adios Pie</td>
+                <td colspan="2">Adios Pie *</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

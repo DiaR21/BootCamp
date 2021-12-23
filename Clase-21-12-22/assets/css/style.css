@@ -1,0 +1,17 @@
+p{
+    font-family: 'Licorice', cursive;
+    font-size: 500%;
+   /** font-weight: 300px; para grosor*/
+}
+
+h1{
+    font-family: 'Licorice', cursive;
+    font-size: 2em; /* 1.4em x 10px = 14px */
+
+}
+    @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+h2{
+
+    font-family: 'Licorice', cursive;
+    font-size: 5em; 
+}
