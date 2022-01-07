@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: pink;
+    height: 50px;
+
+}
+.menu ul{
+        width: 800px;
+        margin:0 auto;
+}
+
+.elemento{
+    display: inline;
+    margin: 0 20px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.elemento a {
+   /* font-family: 'Licorice', cursive;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height:50px;
+    transition: 0.3s; /*cambio de colos suave*/
+   
+}
+
+.elemento a:hover{
+    color: #f6fc57;
+    font-size: 40px;
+
+}
+
+.menu .elemento:hover{
+    background-color: aqua;
+}
+

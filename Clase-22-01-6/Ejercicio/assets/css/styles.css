@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+
+.Titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+    text-align: center;
+    padding: 8;
+}
+
+.sub{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(68, 63, 63);
+    width: 70%;
+    margin:0 auto;
+}
+
+.sub2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(68, 63, 63);
+    width: 100%;
+    margin:0 auto;
+}
+.div1{
+    display: inline;
+}
+
+
+
+
+.a{float: left;
+padding: 10px;
+}
+
+
+
+.row > div{
+    background: gray;;
+
+  }
+  
+p{
+    text-align: justify;
+    text-indent: 1.5em;
+}
