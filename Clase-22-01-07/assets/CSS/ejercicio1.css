@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+.titulo{
+    text-align: center;
+}
+.contenido{
+    width: 90%;
+    margin: 0 auto;
+}
+.contenido article{
+    width: 80%;
+    margin: 0 auto;
+}
+.contenido .Sub{
+    background-color: gray;
+    color: white;
+    padding: 10px 5px;
+
+}
+.contenido .textoIm{
+    width: 70%;
+    margin:0 auto;
+}
+.contenido .imagen{
+    float: left;
+}
+.textoIm .tex{
+    margin-left: 150px;
+}
+.textoIm .tex{
+    text-indent: 20px;
+    text-align: justify;
+}
+ /*Elimina el flotado*/
+ /*
+.clearfix {   
+    float: none;
+    clear: both;
+}*/
